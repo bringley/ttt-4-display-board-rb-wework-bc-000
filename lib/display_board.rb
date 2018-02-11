@@ -2,6 +2,7 @@
 # out the current state.
 
 # assumption is that board has 9 spaces therefore takes an array argument of length 9
+
 def display_board(board)
   break = "-----------"
   puts "  #{board[0]} |  #{board[1]} | #{board[2]}  "
